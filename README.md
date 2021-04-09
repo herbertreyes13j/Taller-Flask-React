@@ -14,6 +14,6 @@
 - Creamos nuestra aplicacion por medio de: app = flask.Flask(__name__)
 - Luego procedemos a crear los endpoints necesarios
 - Agregamos al final: *app.run()*
-- E iniciamos nuestra aplicacion por medio de: *python api.py*
+- E iniciamos nuestra aplicacion por medio de: *python index.py*
 
 ## Front-End
