@@ -1,4 +1,4 @@
-# Taller-Flask-React
+# Taller-Python-JS
 
 ## Back-End
 
