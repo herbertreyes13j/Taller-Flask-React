@@ -5,10 +5,13 @@ function CrearUsuario(){
     var apellido = document.getElementById("apellido");
     var usuario = document.getElementById("usuario");
     var pass = document.getElementById("pass")
-    let headers = new Headers();
+
+  let headers = new Headers();
 	headers.append('Content-Type', 'application/json');
 	headers.append('Accept', 'application/json');
-    fetch('http://localhost:5000/registro', {
+  
+  
+  fetch('http://localhost:5000/registro', {
         method: 'POST',
         headers,
         body: `{
